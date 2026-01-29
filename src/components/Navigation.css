@@ -1,6 +1,6 @@
 .navigation {
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid #d4d4c4;
+  border-bottom: 1px solid #2a2a2a;
 }
 
 .nav-container {
@@ -13,7 +13,7 @@
 .nav-link {
   padding: 0.75rem 1.5rem;
   text-decoration: none;
-  color: #e8e8d8;
+  color: #a1a1a1;
   font-weight: 500;
   border-radius: 8px;
   transition: all 0.3s ease;
@@ -22,16 +22,16 @@
 }
 
 .nav-link:hover {
-  background-color: #3a3a3a;
-  color: #f5f5dc;
+  background-color: #1f1f1f;
+  color: #ffffff;
 }
 
 .nav-link.active {
   background-color: transparent;
-  color: #f5f5dc;
-  border-bottom-color: #fffef0;
+  color: #ffffff;
+  border-bottom-color: #ffffff;
 }
 
 .nav-link.active:hover {
-  background-color: #3a3a3a;
+  background-color: #1f1f1f;
 }

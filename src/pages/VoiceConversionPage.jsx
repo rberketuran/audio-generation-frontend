@@ -105,7 +105,7 @@ function VoiceConversionPage() {
               accept="audio/*"
               onChange={handleFileChange}
               className="file-input"
-              disabled={isLoading}
+              disabled={true}
             />
             {selectedFile && (
               <p className="file-info">Selected: {selectedFile.name}</p>
@@ -127,7 +127,7 @@ function VoiceConversionPage() {
                 value={f0UpKey}
                 onChange={(e) => setF0UpKey(parseInt(e.target.value))}
                 className="slider"
-                disabled={isLoading}
+                disabled={true}
               />
               <small>Adjust pitch: -12 (lower octave) to +12 (higher octave)</small>
             </div>
@@ -145,7 +145,7 @@ function VoiceConversionPage() {
                 value={indexRate}
                 onChange={(e) => setIndexRate(parseFloat(e.target.value))}
                 className="slider"
-                disabled={isLoading}
+                disabled={true}
               />
               <small>Higher values increase accent strength (may cause artifacts if too high)</small>
             </div>
@@ -163,7 +163,7 @@ function VoiceConversionPage() {
                 value={rmsMixRate}
                 onChange={(e) => setRmsMixRate(parseFloat(e.target.value))}
                 className="slider"
-                disabled={isLoading}
+                disabled={true}
               />
               <small>Lower values mimic original volume, higher values = consistent loudness</small>
             </div>
@@ -181,7 +181,7 @@ function VoiceConversionPage() {
                 value={protect}
                 onChange={(e) => setProtect(parseFloat(e.target.value))}
                 className="slider"
-                disabled={isLoading}
+                disabled={true}
               />
               <small>Protects voiceless consonants and breath sounds (lower = more protection)</small>
             </div>
@@ -190,7 +190,7 @@ function VoiceConversionPage() {
           <button 
             type="submit" 
             className="submit-button"
-            disabled={isLoading || !selectedFile}
+            disabled={true}
           >
             {isLoading ? 'Processing...' : 'Convert Voice'}
           </button>

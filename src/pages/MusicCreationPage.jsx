@@ -63,8 +63,8 @@ function MusicCreationPage() {
         <header className="header">
           <div className="header-content">
             <div>
-              <h1>🎵 ElevenLabs Music Generator</h1>
-              <p>Create custom music compositions with AI</p>
+              <h1>🎵 Music Generator AI</h1>
+              <p>Using ElevenLabs API</p>
             </div>
             <CreditsDisplay refreshTrigger={creditsRefresh} />
           </div>

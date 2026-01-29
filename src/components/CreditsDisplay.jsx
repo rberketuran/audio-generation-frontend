@@ -47,6 +47,7 @@ const CreditsDisplay = ({ refreshTrigger }) => {
           </>
         )}
       </div>
+      <div className="credits-word">credits</div>
     </div>
   );
 };

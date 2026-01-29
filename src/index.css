@@ -10,8 +10,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1a1a1a;
-  color: #f5f5dc;
+  background: #0a0a0a;
+  color: #ffffff;
   min-height: 100vh;
   padding: 20px;
 }
@@ -19,5 +19,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  color: #e8e8d8;
+  color: #a1a1a1;
 }
